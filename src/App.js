@@ -1,25 +1,15 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import React from "react";
+import UseEffectHook from "./ReactHooks/UseEffectHook";
+import UseStateHook from "./ReactHooks/UseStateHook";
 import "./App.css";
+import UseEffectHookwin from "./ReactHooks/UseEffectHookwin";
 
 function App() {
-  const [count, setCount] = useState(4);
-
-  function decrement() {
-    setCount((preCount) => preCount - 1);
-    setCount((preCount) => preCount - 1);
-  }
-
-  function increment() {
-    setCount((preCount) => preCount - 1);
-    setCount((preCount) => preCount + 1);
-  }
-
   return (
-    <div>
-      <button onClick={decrement}>-</button>
-      {count}
-      <button onClick={increment}>+</button>
+    <div className="App">
+      {/*<UseStateHook />*/}
+      {/*<UseEffectHook />*/}
+      <UseEffectHookwin />
     </div>
   );
 }
