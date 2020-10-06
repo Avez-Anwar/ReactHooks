@@ -4,6 +4,7 @@ import UseStateHook from "./ReactHooks/UseStateHook";
 import "./App.css";
 import UseEffectHookwin from "./ReactHooks/UseEffectHookwin";
 import UseRef from "./ReactHooks/UseRef";
+import UseCallBackHook from "./ReactHooks/UseCallBackHooks.js/UseCallBackHook";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/*<UseStateHook />*/}
       {/*<UseEffectHook />*/}
       {/* <UseEffectHookwin />*/}
-      <UseRef />
+      {/*<UseRef />*/}
+      <UseCallBackHook />
     </div>
   );
 }
