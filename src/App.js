@@ -5,6 +5,8 @@ import "./App.css";
 import UseEffectHookwin from "./ReactHooks/UseEffectHookwin";
 import UseRef from "./ReactHooks/UseRef";
 import UseCallBackHook from "./ReactHooks/UseCallBackHooks.js/UseCallBackHook";
+import UseReducer from "./ReactHooks/UseReducerHook/UseReducer";
+import UseReducerTodo from "./ReactHooks/UseReducerHook/UseReducerTodo";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/*<UseEffectHook />*/}
       {/* <UseEffectHookwin />*/}
       {/*<UseRef />*/}
-      <UseCallBackHook />
+      {/*<UseCallBackHook />*/}
+      {/*<UseReducer />*/}
+      <UseReducerTodo />
     </div>
   );
 }
