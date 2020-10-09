@@ -1,0 +1,31 @@
+body {
+  background-color: ;
+  font-size: 30px;
+}
+
+.parent-class {
+  background-color: sienna;
+  width: 30%;
+  position: relative;
+  height: 200vh;
+}
+
+.child-one {
+  position: sticky;
+  top: 0;
+  background-color: cornflowerblue;
+  width: 90%;
+  margin: 10px 10px -10px 10px;
+}
+
+.child-two {
+  background-color: hotpink;
+  width: 90%;
+  margin: 10px 10px -10px 10px;
+}
+
+.child-three {
+  background-color: slateblue;
+  width: 90%;
+  margin: 10px 10px -10px 10px;
+}
